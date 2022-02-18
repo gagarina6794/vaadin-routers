@@ -76,7 +76,6 @@ public class InsideEmpty1 extends VerticalLayout {
             InputStream in = new BufferedInputStream(url.openStream());
             StreamResource streamResource = new StreamResource(imageName, () -> in);
             image.setSrc(streamResource);
-            in.close();
         } catch (Exception exception) {
             exception.printStackTrace();
         }
