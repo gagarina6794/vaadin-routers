@@ -1,5 +1,6 @@
-package com.example.application.views;
+package com.example.application.views.webdriver;
 
+import com.example.application.views.ContentLayoutEmpty1;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -16,12 +17,12 @@ import java.io.BufferedInputStream;
 import java.io.InputStream;
 import java.net.URL;
 
-@Route(value = "inside-empty-1", layout = ContentLayoutEmpty1.class)
-public class InsideEmpty1 extends VerticalLayout {
+@Route(value = "light-shot", layout = ContentLayoutEmpty1.class)
+public class RandomLightShotLayout extends VerticalLayout {
 
     private final Image image = new Image();
 
-    public InsideEmpty1() {
+    public RandomLightShotLayout() {
         setSizeFull();
         getElement().setProperty("background", "#89ddff");
         getElement().setProperty("color", "#FFFFFF");
