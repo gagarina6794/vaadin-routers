@@ -26,7 +26,7 @@ public class ContentLayoutEmpty1 extends VerticalLayout implements RouterLayout 
         Div firstDiv = new Div();
         firstDiv.setHeight("50px");
 
-        RouterLink routerLink = new RouterLink("Inside", InsideEmpty1.class, "init=1");
+        RouterLink routerLink = new RouterLink("See random image", InsideEmpty1.class);
         firstDiv.add(routerLink);
 
         add(firstDiv);

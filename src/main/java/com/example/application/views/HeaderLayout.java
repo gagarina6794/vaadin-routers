@@ -13,12 +13,11 @@ public class HeaderLayout extends HorizontalLayout {
     private void init() {
         this.setHeight("100px");
         this.setWidthFull();
-        this.getStyle().set("background", "#6200EE");
-        this.setPadding(false);
+        this.getStyle().set("background", "#e9cdcd");
+        this.setPadding(true);
 
         Div firstLink = new Div();
         firstLink.setHeightFull();
-        firstLink.getStyle().set("background", "#3700B3");
         firstLink.getStyle().set("display", "flex");
         firstLink.getStyle().set("align-items", "center");
         firstLink.getStyle().set("color", "#FFFFFF");
@@ -30,7 +29,6 @@ public class HeaderLayout extends HorizontalLayout {
 
         Div secondLink = new Div();
         secondLink.setHeightFull();
-        secondLink.getStyle().set("background", "#3700B3");
         secondLink.getStyle().set("display", "flex");
         secondLink.getStyle().set("align-items", "center");
         secondLink.getStyle().set("color", "#FFFFFF");
